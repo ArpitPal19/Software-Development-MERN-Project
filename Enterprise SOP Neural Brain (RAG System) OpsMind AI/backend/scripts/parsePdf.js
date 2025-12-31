@@ -1,26 +1,3 @@
-// import fs from "fs";
-// import { createRequire } from "module";
-
-// const require = createRequire(import.meta.url);
-// const pdfParse = require("pdf-parse");
-
-// export async function parsePdf(filePath) {
-//   const buffer = fs.readFileSync(filePath);
-//   const data = await pdfParse(buffer);
-//   return data.text;
-// }
-
-
-// import fs from "fs";
-// import pdfParse from "pdf-parse/lib/pdf-parse.js";
-
-// export async function parsePDF(filePath) {
-//   const dataBuffer = fs.readFileSync(filePath);
-//   const data = await pdfParse(dataBuffer);
-//   return data.text;
-// }
-
-
 
 import fs from "fs";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";

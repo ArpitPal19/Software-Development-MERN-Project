@@ -1,18 +1,4 @@
 
-// import Chunk from "../models/Chunk.js";
-// import { tokenize } from "../utils/tokenizer.js";
-
-// export async function retrieveChunks(query, limit = 3) {
-//   const queryTokens = tokenize(query);
-
-//   const results = await Chunk.find({
-//     tokens: { $in: queryTokens }
-//   }).limit(limit);
-
-//   return results;
-// }
-
-
 import Chunk from "../models/Chunk.js";
 import { tokenize } from "../utils/tokenizer.js";
 
